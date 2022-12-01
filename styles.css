@@ -1,0 +1,205 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  font-family: serif, sans-serif;
+
+}
+ */
+p{
+  color: #706e6e;
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+h1.logo{
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 23px;
+}
+
+h2{
+  font-size: 43px;
+  font-weight: 700px;
+}
+
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+h5{
+  color: #706e6e;
+}
+
+span{
+  color: #4470ad;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero__section{
+  margin-top: 50px;
+}
+
+
+
+/* hero form */
+input{
+  width: 65%;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 25px;
+  border: 1px solid #706e6e;
+}
+
+input:focus{
+  border: none;
+  
+}
+
+.hero__btn{
+  color: #fff;
+  background-color: #4470ad;
+  width: 140px;
+  height: 45px;
+  border-radius: 25px;
+  border: 0;
+  margin-left: 10px;
+  transition: 500ms;
+}
+
+.hero__btn:hover{
+  color: #4470ad;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #4470ad;
+}
+
+a.meida__link{
+  font-size: 19px;
+  color: #4470ad;
+  text-decoration: none;
+  margin-right: 55px;
+}
+
+/* .slide__link{
+  margin-top: 50px;
+  display: inline-block;
+} */
+
+
+form{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.header i{
+  margin-right: 5px;
+}
+
+
+/* FLEXBOX STYLES */
+.Petes-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+} 
+
+.hero-img{
+  width: 800PX;
+}
+
+.hero__left, .hero__right{
+  width: 700px;
+}
+
+/* FEATURES SECTION */
+.features-title{
+  text-align: center;
+  margin: 30px auto 40px;
+}
+
+.features__col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccdbee;
+  width: 450px;
+  padding: 20px;
+  border-radius: 25px;
+  transition: 400ms;
+}
+
+.min-features:hover{
+  transform: scale(1);
+}
+
+.features__row{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.features__col img{
+  width: 400px;
+  border-radius: 20px;
+}
+
+.features__col p{
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.max-feature{
+  transform: scale(1.08);
+}
+.max-feature:hover{
+  transform: scale(1.15);
+}
+
+.min-features{
+  transform: scale(0.85);
+}
+
+
+/* CONTACT SECtion */
+.contact__section{
+  background-color: #ccdbee;
+  text-align: center;
+  margin-top: 40px;
+  /* padding: 50px auto 40px; */
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.contact__form input{
+  width: 35%;
+}
+
+.footer{
+  display: flex;
+  gap: 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkedinFa{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.fa{
+  color: #4470ad;
+}
